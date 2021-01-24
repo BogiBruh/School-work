@@ -1,0 +1,16 @@
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\bin\Debug\mp3.exe.config
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\bin\Debug\mp3.exe
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\bin\Debug\mp3.pdb
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\bin\Debug\Interop.WMPLib.dll
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.csprojAssemblyReference.cache
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\Interop.WMPLib.dll
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.csproj.ResolveComReference.cache
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.Form1.resources
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.Properties.Resources.resources
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.csproj.GenerateResource.cache
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.exe
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.pdb
+C:\Users\Intel\Desktop\domaci\mp3 plejer\mp3\mp3\obj\Debug\mp3.Form2.resources

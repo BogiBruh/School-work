@@ -1,0 +1,11 @@
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\bin\Debug\logovanje1.exe.config
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\bin\Debug\logovanje1.exe
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\bin\Debug\logovanje1.pdb
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.csprojAssemblyReference.cache
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.Form1.resources
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.Properties.Resources.resources
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.csproj.GenerateResource.cache
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.exe
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.pdb
+C:\Users\Intel\Desktop\domaci\logovanje1\logovanje1\obj\Debug\logovanje1.Form2.resources
