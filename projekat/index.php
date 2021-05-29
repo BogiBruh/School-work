@@ -1,4 +1,9 @@
 <?php
+    session_start();
+    if(isset($_SESSION["username"])){
+        header("location: index.php");
+    }
+
     echo '<!DOCTYPE html>
     <html lang="en">
         <head>
@@ -11,7 +16,7 @@
             <div style="width: 300px; height: 300px; border: 1px solid black; margin: auto; text-align: center">
                 <h2>Loginujte se</h2> <br>
                 <form action="login.php" method="POST" style="text-align: right">
-                    Username/imejl: <input type="text" name="ImejlIliUsername">
+                    imejl: <input type="text" name="Imejl">
                     <br>
                     Lozinka: <input type="password" name="lozinka"> <br><br>
                     <input type="submit" style="margin: auto" value="Log-inuj se">

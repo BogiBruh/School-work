@@ -1,6 +1,10 @@
 <?php 
     include 'povezivanje.php';
-
+    session_start();
+    if(!isset($_SESSION["username"])){
+        header("location: index.php");
+    }
+    
     $poveziSe = povezivanje();
     //prvi deo, koji se ne menja
     echo ' 
