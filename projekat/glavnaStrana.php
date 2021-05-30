@@ -20,18 +20,28 @@
             <div style="width: 1280px; height: 720px; border: 1px solid black; margin: auto; margin-top: 5%;">
                 <div style="display: float; float:left; width: 300px; height: 100%; border: 1px solid red;">
                     <li>';
-    //ovde ide skeniranje baze za listu
+                //ovde ide skeniranje baze za listu
+            $skeniranjeBaze = "SELECT ime-videa FROM plejliste WHERE user = '" . $_SESSION['username'] . "'";
+            $skenRez = mysqli_query(povezivanje(), $skeniranjeBaze);
 
+            $i = mysqli_num_rows($skenRez);
+
+            for($x = 0; $x < $i; $x++){
+                $trenutni_video = $skenRez[$x];
+                echo "<ul>". $trenutni_video ."</ul>";
+            }
     
-
     echo '          </li>
-                <button on>+</button>
-                </div>
-                <div style="display: float; float: right; width: 970px; height: 100%; border: 1px solid blue; text-align: center;">
-                    <h1 style="margin-top: 100px">Great grey wolf sif - Dark Souls OST</h1>
-                    <iframe width="700" height="395" style="display: block; margin: auto" src="https://www.youtube.com/embed/RZVyHH-voR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                <button>+</button>';
+
+
+    echo '      </div>
+                <div style="display: float; float: right; width: 970px; height: 100%; border: 1px solid blue; text-align: center;">';
+                //za prikaz stvari    
+
+    echo '      </div>
             </div>
+            <button><a href="logout.php">Logout</a></button>
         </body>
     </html>';
 
