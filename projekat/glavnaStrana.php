@@ -21,19 +21,35 @@
                 <div style="display: float; float:left; width: 300px; height: 100%; border: 1px solid red;">
                     <li>';
                 //ovde ide skeniranje baze za listu
-            $skeniranjeBaze = "SELECT ime-videa FROM plejliste WHERE user = '" . $_SESSION['username'] . "'";
+            $user = $_SESSION["username"];
+            $skeniranjeBaze = "SELECT `ime-videa` FROM plejlista WHERE user = '$user'";
             $skenRez = mysqli_query(povezivanje(), $skeniranjeBaze);
 
-            $i = mysqli_num_rows($skenRez);
-
-            for($x = 0; $x < $i; $x++){
-                $trenutni_video = $skenRez[$x];
-                echo "<ul>". $trenutni_video ."</ul>";
+            while ($plejlista = mysqli_fetch_assoc($skenRez)) { //ovako se IZ NEKOG RAZLOGA parsira rezultat
+                // printf("%s \n", $plejlista["ime-videa"]);
+                echo "<ul>". $plejlista["ime-videa"] ."</ul>";
             }
     
     echo '          </li>
-                <button>+</button>';
+                <form method="POST">
+                    <input type="submit" name="dodaj" value="+">
+                </form>';
 
+                if(isset($_POST['dodaj'])){
+                    //echo "dugme kliknuto"; //test
+
+                    echo '<form method="POST">
+                        Unesite youtube url pesme: <br>
+                        <input type="text" name="link">
+                        <input type="submit" value="dodaj" name="posalji">
+                    </form>';
+
+                    if(isset($_POST['posalji'])){
+                        $url = $_POST['link'];
+                        echo $url;
+                        sleep(3);
+                    }
+                }
 
     echo '      </div>
                 <div style="display: float; float: right; width: 970px; height: 100%; border: 1px solid blue; text-align: center;">';
