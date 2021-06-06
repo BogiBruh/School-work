@@ -13,7 +13,7 @@
         <body style="display: flex; justify-content: center; align-items: center;">
             <div style="width: 300px; height: 300px; border: 1px solid black; margin: auto; text-align: center">
                 <h2>Napravite nalog</h2> <br>
-                <form action="slanjenaloga.php" method="POST" style="text-align: right">
+                <form action="slanjenaloga.php" method="POST" style="text-align: right" autocomplete="off">
                     Username: <input type="text" name="username">
                     <br>
                     imejl: <input type="text" name="imejl">

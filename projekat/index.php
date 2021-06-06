@@ -18,11 +18,15 @@
                 <form action="login.php" method="POST" style="text-align: right">
                     imejl: <input type="text" name="Imejl">
                     <br>
-                    Lozinka: <input type="password" name="lozinka"> <br><br>
+                    Lozinka: <input type="password" name="lozinka" autocomplete="off"> <br><br>
                     <input type="submit" style="margin: auto" value="Log-inuj se">
                 </form><br><br>
-                ili <button>Napravite nalog</button>
+                ili <form method="POST"><input type="submit" name="napraviNalog" value="Napravi Nalog"></form>
             </div>
         </body>
     </html>';
+
+    if(isset($_POST['napraviNalog'])){
+        header("location: napraviNalog.php");
+    }
 ?>
