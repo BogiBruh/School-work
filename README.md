@@ -9,5 +9,6 @@ All the things i do in school. This includes languages such as:
 - python(if I find those off of my old hard-drive)
 - HTML
 - Javascript
+- Java
 - CSS
 - SQL
