@@ -4,9 +4,9 @@
         $korisnik = 'root';
         $lozinka = '';
         $databaza = 'projekat-ab';
-
+        
         $poveziSe = new mysqli($ime, $korisnik, $lozinka, $databaza);
-
+        
         if(!$poveziSe){
             echo "zalim";
         }
